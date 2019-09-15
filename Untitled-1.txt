@@ -1,0 +1,31 @@
+<?php
+/*
+	if(isset($_POST["bir"]))
+	{
+		$toplam=0;
+		$sayilar = $_POST["kara"];
+		foreach($sayilar as $sayi)
+		{
+			$toplam+=$sayi;
+		}
+		echo "TOPLAM =".$toplam;
+	}
+?>
+
+<form method="post">
+
+	<input type="checkbox" name="kara[]" value="1"><label>Bir</label>
+	<input type="checkbox" name="kara[]" value="2"><label>iKİ</label>
+	<input type="checkbox" name="kara[]" value="3"><label>üÇ</label>
+	<input type="checkbox" name="kara[]" value="4"><label>dÖRT</label>
+	<button type="submit" name="bir">TOPLA</button>
+</form>
+
+<form method="post">
+
+	<input type="checkbox" name="kara[]" value="1"><label>Bir</label>
+	<input type="checkbox" name="kara[]" value="2"><label>iKİ</label>
+	<input type="checkbox" name="kara[]" value="3"><label>üÇ</label>
+	<input type="checkbox" name="kara[]" value="4"><label>dÖRT</label>
+    <button type="submit" name="iki">TOPLA</button>
+</form>
